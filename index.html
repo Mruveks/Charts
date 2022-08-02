@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css"rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>CHOOSE ASSET</h2>
+        <select id="asset">
+            <option value="btc">BTC</option>
+            <option value="eth">ETH</option>
+            <option value="avax">AVAX</option>
+            <option value="sol">SOL</option>
+            <option value="matic"></option>
+            <option value="atom"></option>
+            <option value="near"></option>
+            <option value="ftm"></option>
+        </select>
+        <h2>CHOOSE INTERVAL</h2>
+        <select id="interval">
+            <option value="1m">1M</option>
+            <option value="1w">1W</option>
+            <option value="3d">3D</option>
+            <option value="1d">1D</option>
+            <option value="12h">12H</option>
+            <option value="6h">6H</option>
+            <option value="4h">4H</option>
+            <option value="1h">1H</option>
+        </select>
+        <div id="result">
+            <h2>Lowest Price</h2>            
+            <h2 id="low"></h2>
+            <h2>Highest Price</h2>            
+            <h2 id="high"></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

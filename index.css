@@ -1,0 +1,40 @@
+body{
+    padding-top: 4rem;
+    background-color: lightblue
+}
+
+select{
+    width: 40%;
+    height: 5%;
+    font-size: large;
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 60%;
+    height: 40rem;
+    background-color: #333;
+    border: 1px solid red;    
+    border-radius: 25px;
+    
+    text-align: center;
+    color: #fff;
+}
+button{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+#result{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #fff;
+    margin: 4rem auto 0 auto;
+    height: 15rem;
+    width: 80%;
+}
+#result > h2{
+    line-height: 5rem;
+    vertical-align: middle;
+}
